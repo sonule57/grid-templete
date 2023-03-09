@@ -1,0 +1,97 @@
+html, body{
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+}
+
+header{
+    height: 5%;
+    width: 100%;
+    background-color: lightgreen;
+    font-size: large;
+    color: white;
+    font-weight: bold;
+    padding: 2px 0px 2px 10px;
+}
+
+main{
+    height: 95%;
+    width: 100%;
+    display: flex;
+}
+
+main section {
+    flex-grow: 1;
+    /* background-color: lightblue;
+    border: 1px solid black; */
+}
+
+.personal-information{
+    margin: 20px;
+}
+
+.personal-information q{
+    background-color: rgba(192, 206, 206, 0.843);
+    font-size: small;
+    display: block;
+    width: max-content;
+    padding: 8px;
+}
+
+
+.personal-information th{
+    color: rgb(95, 234, 95);
+    text-align: right;
+}
+
+.personal-information td {
+    padding-left:  15px;
+}
+
+.bio-infromation p{
+ background-color: rgba(192, 206, 206, 0.843);
+ width: max-content;
+ padding: 8px;
+
+}
+
+.heading1{
+    color: lightgreen;
+}
+
+.about p{
+    background-color: lightgreen;
+    color: white;
+    padding-left: 15px;
+}
+
+.about p:first-child{
+    width: 75%;
+}
+
+.about p:nth-child(even){
+    width: 50%;
+}
+#p1{
+    width:60%;
+}
+
+.small-flex{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.box-flex{
+    display: flex;
+    height: 3%;
+}
+
+.graydiv{
+    background-color: lightgray;
+}
+
+.greendiv{
+    background-color: lightgreen;
+    width: 7%;
+}
